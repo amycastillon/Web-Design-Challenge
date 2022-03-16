@@ -28,15 +28,15 @@
     max-width: 100%;
 }
 
-#main{
+/* #main{
     background-color: #e3e3e3;
     height: 100%;
-}
+} */
 
 #left_column{
     background-color: white;
     margin-top: 5%;
-    margin-left: 10%;
+    margin-left: 5%;
     padding: 25px;
     width: 800px;
     margin-bottom: 50px;
@@ -45,7 +45,7 @@
 #right_column{
     background-color: white;
     margin-top: 5%;
-    /* margin-left: 100px; */
+    margin-left: 5%;
     padding: 10px;
     width: 650px;
         
@@ -119,10 +119,10 @@
         
     }
 
-    #main {
+    /* #main {
         background-color: white;
         height: 100%;
-    }
+    } */
 
     img {
         width: 200px;
