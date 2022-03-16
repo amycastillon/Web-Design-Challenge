@@ -1,0 +1,136 @@
+#hamburger{
+    visibility: hidden;
+}
+
+#buttons{
+    visibility: visible;
+    position: absolute;
+    right: 0px;
+    top: 25px;
+    margin-left: auto;
+}
+
+#latitude{
+    background-color: #3FB59F;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;    
+}
+
+/* #data_background{
+    width: 100%;
+    max-width: 100%;
+} */
+
+#background{
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+#main{
+    background-color: #e3e3e3;
+    height: 100%;
+}
+
+#left_column{
+    background-color: white;
+    margin-top: 45px;
+    margin-left: 100px;
+    padding: 25px;
+    width: 800px;
+    margin-bottom: 50px;
+}
+
+#right_column{
+    background-color: white;
+    margin-top: 45px;
+    margin-left: 100px;
+    padding: 10px;
+    width: 650px;
+        
+}
+
+#compare_topleft{
+    padding-left: 50px;
+}
+
+#compare_bottomleft{
+    padding-left: 50px;
+}
+
+#compare_topright{
+    padding-left: 50px;
+}
+
+#compare_bottomright{
+    padding-left: 50px;
+}
+
+#table_dimensions {
+    width: 97%;
+    margin-left: 25px;
+    margin-top: 25px;
+    background: white;
+    padding: 20px;
+    
+}
+
+.white_back_comp {
+    background: white;
+    padding: 10px;
+    margin: 10px;
+    width: 530px;
+    
+}
+
+@media(max-width:767px){
+    #hamburger {
+        visibility:visible;
+    }
+
+    #buttons {
+        visibility: hidden;
+    }
+
+    #nav_bar {
+        background-color: #3FB59F;    
+    }
+
+    #data_background{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #background {
+        height: 100%;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #left_column {
+        all: unset;
+        padding: 20px;
+    }
+
+    #right_column {
+        all: unset;
+        padding: 20px;
+        
+    }
+
+    #main {
+        background-color: white;
+        height: 100%;
+    }
+
+    img {
+        width: 200px;
+    }
+    
+}
+
+.titles{
+    font-family: 'Times New Roman', Times, serif;
+    color: #3FB59F;
+}
